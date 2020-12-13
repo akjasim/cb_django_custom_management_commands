@@ -1,6 +1,6 @@
 # Custom Management Commands in Django.
 
-Foobar is a Python library for dealing with word pluralization.
+Part of Code Band YouTube video.
 
 ## Usage
 
