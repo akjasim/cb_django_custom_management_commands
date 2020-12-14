@@ -63,7 +63,7 @@ class Command(BaseCommand):
 
         for i in range(count):
             if prefix:
-                username = f'{prefix}_{random_string}'
+                username = f'{prefix}_{get_random_string()}'
             else:
                 username = get_random_string()
             User.objects.create_user(username=username, email='hello@hi.com', password='123')
@@ -92,7 +92,7 @@ class Command(BaseCommand):
 
         for i in range(count):
             if prefix:
-                username = f'{prefix}_{random_string}'
+                username = f'{prefix}_{get_random_string()}'
             else:
                 username = get_random_string()
 
